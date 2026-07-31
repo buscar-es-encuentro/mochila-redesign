@@ -9,15 +9,13 @@ const geist = Geist({
 
 export const metadata: Metadata = {
   title: {
-    default: "Mochila y Nos Fuimos | Rediseño conceptual",
-    template: "%s | Mochila y Nos Fuimos",
+    default: "Me viajo y me voy | Rediseño conceptual",
+    template: "%s | Me viajo y me voy",
   },
   description:
     "Rediseño conceptual de una agencia de viajes colombiana enfocada en experiencias auténticas y viajes personalizados.",
   robots: { index: false, follow: false },
-  other: {
-    "codex-preview": "development",
-  },
+  
 };
 
 export default function RootLayout({

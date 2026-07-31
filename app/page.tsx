@@ -55,11 +55,11 @@ function Arrow() {
 function Header() {
   return (
     <header className="site-header">
-      <Link className="brand" href="/" aria-label="Mochila y Nos Fuimos, inicio">
+      <Link className="brand" href="/" aria-label="Me viajo y me voy, inicio">
         <span className="brand-mark">M</span>
         <span>
-          MOCHILA
-          <small>Y NOS FUIMOS</small>
+          ME VIAJO
+          Y ME VOY
         </span>
       </Link>
       <nav className="desktop-nav" aria-label="Navegación principal">
